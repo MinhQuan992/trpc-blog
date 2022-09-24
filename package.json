@@ -15,6 +15,7 @@
     "@trpc/react": "^9.27.2",
     "@trpc/server": "^9.27.2",
     "cookie": "^0.5.0",
+    "formik": "^2.2.9",
     "jotai": "^1.8.3",
     "jsonwebtoken": "^8.5.1",
     "next": "12.3.0",

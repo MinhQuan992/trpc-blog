@@ -4,7 +4,7 @@ import { withTRPC } from "@trpc/next";
 import { loggerLink } from "@trpc/client/links/loggerLink";
 import { httpBatchLink } from "@trpc/client/links/httpBatchLink";
 import superjson from "superjson";
-import { AppRouter } from "../server/router/app.router";
+import { AppRouter } from "../server/routers/app.router";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
